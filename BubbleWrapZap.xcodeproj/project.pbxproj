@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		531097C22616B57D0081D33B /* Boom.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 531097C12616B57D0081D33B /* Boom.m4a */; };
+		531097C52617C2160081D33B /* Pop.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 531097C42617C2160081D33B /* Pop.m4a */; };
+		533EABE725FC453A009327ED /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533EABE625FC4539009327ED /* MemoryGame.swift */; };
+		533EABEA25FC9317009327ED /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533EABE925FC9316009327ED /* EmojiMemoryGame.swift */; };
+		535049B8261ACBDB00100D46 /* String.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 535049B7261ACBDB00100D46 /* String.m4a */; };
+		53729F27260FE14800ADBCC0 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53729F26260FE14800ADBCC0 /* Grid.swift */; };
+		53729F2A261022C000ADBCC0 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53729F29261022C000ADBCC0 /* GridLayout.swift */; };
+		538CDE1525BE1D6C008F5CB5 /* BubbleWrapZapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538CDE1425BE1D6C008F5CB5 /* BubbleWrapZapApp.swift */; };
+		538CDE1725BE1D6C008F5CB5 /* BubbleWrapZapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538CDE1625BE1D6C008F5CB5 /* BubbleWrapZapView.swift */; };
+		538CDE1925BE1D76008F5CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538CDE1825BE1D76008F5CB5 /* Assets.xcassets */; };
+		538CDE1C25BE1D76008F5CB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538CDE1B25BE1D76008F5CB5 /* Preview Assets.xcassets */; };
+		539B886C2648863E00FEA65C /* nanopb.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 539B88612648863D00FEA65C /* nanopb.xcframework */; };
+		539B886D2648863E00FEA65C /* Promises-LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 539B88632648863D00FEA65C /* Promises-LICENSE */; };
+		539B886E2648863E00FEA65C /* NanoPB-LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 539B88642648863D00FEA65C /* NanoPB-LICENSE */; };
+		539B886F2648863E00FEA65C /* OpenMeasurement-LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 539B88652648863D00FEA65C /* OpenMeasurement-LICENSE */; };
+		539B88702648863E00FEA65C /* GoogleUtilities-LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 539B88662648863D00FEA65C /* GoogleUtilities-LICENSE */; };
+		539B88712648863E00FEA65C /* PromisesObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 539B88672648863D00FEA65C /* PromisesObjC.xcframework */; };
+		539B88722648863E00FEA65C /* UserMessagingPlatform.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 539B88682648863D00FEA65C /* UserMessagingPlatform.xcframework */; };
+		539B88732648863E00FEA65C /* GoogleMobileAds.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 539B88692648863D00FEA65C /* GoogleMobileAds.xcframework */; };
+		539B88742648863E00FEA65C /* GoogleAppMeasurement.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 539B886A2648863D00FEA65C /* GoogleAppMeasurement.xcframework */; };
+		539B88752648863E00FEA65C /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 539B886B2648863D00FEA65C /* GoogleUtilities.xcframework */; };
+		53F5A8DB261C29670074BCE8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F5A8DA261C29670074BCE8 /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		531097C12616B57D0081D33B /* Boom.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Boom.m4a; sourceTree = "<group>"; };
+		531097C42617C2160081D33B /* Pop.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pop.m4a; sourceTree = "<group>"; };
+		533EABE625FC4539009327ED /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		533EABE925FC9316009327ED /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		535049B7261ACBDB00100D46 /* String.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = String.m4a; sourceTree = "<group>"; };
+		53729F26260FE14800ADBCC0 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		53729F29261022C000ADBCC0 /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		538CDE1125BE1D6C008F5CB5 /* BubbleWrapZap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleWrapZap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		538CDE1425BE1D6C008F5CB5 /* BubbleWrapZapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleWrapZapApp.swift; sourceTree = "<group>"; };
+		538CDE1625BE1D6C008F5CB5 /* BubbleWrapZapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleWrapZapView.swift; sourceTree = "<group>"; };
+		538CDE1825BE1D76008F5CB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		538CDE1B25BE1D76008F5CB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		538CDE1D25BE1D76008F5CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		539B88612648863D00FEA65C /* nanopb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = nanopb.xcframework; sourceTree = "<group>"; };
+		539B88632648863D00FEA65C /* Promises-LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Promises-LICENSE"; sourceTree = "<group>"; };
+		539B88642648863D00FEA65C /* NanoPB-LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "NanoPB-LICENSE"; sourceTree = "<group>"; };
+		539B88652648863D00FEA65C /* OpenMeasurement-LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "OpenMeasurement-LICENSE"; sourceTree = "<group>"; };
+		539B88662648863D00FEA65C /* GoogleUtilities-LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "GoogleUtilities-LICENSE"; sourceTree = "<group>"; };
+		539B88672648863D00FEA65C /* PromisesObjC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PromisesObjC.xcframework; sourceTree = "<group>"; };
+		539B88682648863D00FEA65C /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
+		539B88692648863D00FEA65C /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleMobileAds.xcframework; sourceTree = "<group>"; };
+		539B886A2648863D00FEA65C /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleAppMeasurement.xcframework; sourceTree = "<group>"; };
+		539B886B2648863D00FEA65C /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleUtilities.xcframework; sourceTree = "<group>"; };
+		53F5A8DA261C29670074BCE8 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		538CDE0E25BE1D6C008F5CB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539B886C2648863E00FEA65C /* nanopb.xcframework in Frameworks */,
+				539B88742648863E00FEA65C /* GoogleAppMeasurement.xcframework in Frameworks */,
+				539B88722648863E00FEA65C /* UserMessagingPlatform.xcframework in Frameworks */,
+				539B88712648863E00FEA65C /* PromisesObjC.xcframework in Frameworks */,
+				539B88732648863E00FEA65C /* GoogleMobileAds.xcframework in Frameworks */,
+				539B88752648863E00FEA65C /* GoogleUtilities.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		531097C02616B57D0081D33B /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				531097C12616B57D0081D33B /* Boom.m4a */,
+				535049B7261ACBDB00100D46 /* String.m4a */,
+				531097C42617C2160081D33B /* Pop.m4a */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		538CDE0825BE1D6C008F5CB5 = {
+			isa = PBXGroup;
+			children = (
+				539B88602648863D00FEA65C /* GoogleMobileAdsSdkiOS-8.5.0 */,
+				538CDE1325BE1D6C008F5CB5 /* Memorize */,
+				538CDE1225BE1D6C008F5CB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		538CDE1225BE1D6C008F5CB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				538CDE1125BE1D6C008F5CB5 /* BubbleWrapZap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		538CDE1325BE1D6C008F5CB5 /* Memorize */ = {
+			isa = PBXGroup;
+			children = (
+				531097C02616B57D0081D33B /* Sounds */,
+				538CDE1425BE1D6C008F5CB5 /* BubbleWrapZapApp.swift */,
+				53F5A8DA261C29670074BCE8 /* Launch Screen.storyboard */,
+				538CDE1625BE1D6C008F5CB5 /* BubbleWrapZapView.swift */,
+				53729F26260FE14800ADBCC0 /* Grid.swift */,
+				533EABE625FC4539009327ED /* MemoryGame.swift */,
+				53729F29261022C000ADBCC0 /* GridLayout.swift */,
+				533EABE925FC9316009327ED /* EmojiMemoryGame.swift */,
+				538CDE1D25BE1D76008F5CB5 /* Info.plist */,
+				538CDE1825BE1D76008F5CB5 /* Assets.xcassets */,
+				538CDE1A25BE1D76008F5CB5 /* Preview Content */,
+			);
+			path = Memorize;
+			sourceTree = "<group>";
+		};
+		538CDE1A25BE1D76008F5CB5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				538CDE1B25BE1D76008F5CB5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		539B88602648863D00FEA65C /* GoogleMobileAdsSdkiOS-8.5.0 */ = {
+			isa = PBXGroup;
+			children = (
+				539B88612648863D00FEA65C /* nanopb.xcframework */,
+				539B88622648863D00FEA65C /* Licenses */,
+				539B88672648863D00FEA65C /* PromisesObjC.xcframework */,
+				539B88682648863D00FEA65C /* UserMessagingPlatform.xcframework */,
+				539B88692648863D00FEA65C /* GoogleMobileAds.xcframework */,
+				539B886A2648863D00FEA65C /* GoogleAppMeasurement.xcframework */,
+				539B886B2648863D00FEA65C /* GoogleUtilities.xcframework */,
+			);
+			path = "GoogleMobileAdsSdkiOS-8.5.0";
+			sourceTree = "<group>";
+		};
+		539B88622648863D00FEA65C /* Licenses */ = {
+			isa = PBXGroup;
+			children = (
+				539B88632648863D00FEA65C /* Promises-LICENSE */,
+				539B88642648863D00FEA65C /* NanoPB-LICENSE */,
+				539B88652648863D00FEA65C /* OpenMeasurement-LICENSE */,
+				539B88662648863D00FEA65C /* GoogleUtilities-LICENSE */,
+			);
+			path = Licenses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		538CDE1025BE1D6C008F5CB5 /* BubbleWrapZap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 538CDE2025BE1D76008F5CB5 /* Build configuration list for PBXNativeTarget "BubbleWrapZap" */;
+			buildPhases = (
+				538CDE0D25BE1D6C008F5CB5 /* Sources */,
+				538CDE0E25BE1D6C008F5CB5 /* Frameworks */,
+				538CDE0F25BE1D6C008F5CB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BubbleWrapZap;
+			productName = Memorize;
+			productReference = 538CDE1125BE1D6C008F5CB5 /* BubbleWrapZap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		538CDE0925BE1D6C008F5CB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					538CDE1025BE1D6C008F5CB5 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 538CDE0C25BE1D6C008F5CB5 /* Build configuration list for PBXProject "BubbleWrapZap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 538CDE0825BE1D6C008F5CB5;
+			productRefGroup = 538CDE1225BE1D6C008F5CB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				538CDE1025BE1D6C008F5CB5 /* BubbleWrapZap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		538CDE0F25BE1D6C008F5CB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F5A8DB261C29670074BCE8 /* Launch Screen.storyboard in Resources */,
+				538CDE1C25BE1D76008F5CB5 /* Preview Assets.xcassets in Resources */,
+				538CDE1925BE1D76008F5CB5 /* Assets.xcassets in Resources */,
+				535049B8261ACBDB00100D46 /* String.m4a in Resources */,
+				539B886E2648863E00FEA65C /* NanoPB-LICENSE in Resources */,
+				531097C52617C2160081D33B /* Pop.m4a in Resources */,
+				531097C22616B57D0081D33B /* Boom.m4a in Resources */,
+				539B886D2648863E00FEA65C /* Promises-LICENSE in Resources */,
+				539B88702648863E00FEA65C /* GoogleUtilities-LICENSE in Resources */,
+				539B886F2648863E00FEA65C /* OpenMeasurement-LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		538CDE0D25BE1D6C008F5CB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533EABE725FC453A009327ED /* MemoryGame.swift in Sources */,
+				538CDE1725BE1D6C008F5CB5 /* BubbleWrapZapView.swift in Sources */,
+				538CDE1525BE1D6C008F5CB5 /* BubbleWrapZapApp.swift in Sources */,
+				53729F2A261022C000ADBCC0 /* GridLayout.swift in Sources */,
+				53729F27260FE14800ADBCC0 /* Grid.swift in Sources */,
+				533EABEA25FC9317009327ED /* EmojiMemoryGame.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		538CDE1E25BE1D76008F5CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		538CDE1F25BE1D76008F5CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		538CDE2125BE1D76008F5CB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1.1;
+				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
+				DEVELOPMENT_TEAM = M3F358FF9M;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Memorize/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mamtasharma.BubbleWrapZap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		538CDE2225BE1D76008F5CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1.1;
+				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
+				DEVELOPMENT_TEAM = M3F358FF9M;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Memorize/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mamtasharma.BubbleWrapZap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		538CDE0C25BE1D6C008F5CB5 /* Build configuration list for PBXProject "BubbleWrapZap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538CDE1E25BE1D76008F5CB5 /* Debug */,
+				538CDE1F25BE1D76008F5CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		538CDE2025BE1D76008F5CB5 /* Build configuration list for PBXNativeTarget "BubbleWrapZap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				538CDE2125BE1D76008F5CB5 /* Debug */,
+				538CDE2225BE1D76008F5CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 538CDE0925BE1D6C008F5CB5 /* Project object */;
+}
